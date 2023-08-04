@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=Roboto:ital,wght@0,500;0,900;1,500&display=swap");
+body {
+    margin: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+
+header {
+    padding: 40px;
+    background-image: url("Let\'s\ Shine-1.png");
+    background-position:  center;
+    background-repeat: repeat;
+    background-size: 78%;
+}
+nav {
+    background-color: #444040;
+    overflow: hidden;
+    display: flex;
+    
+    
+    
+}
+nav a {
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+nav a:hover{
+    background-color: #333;
+}
+img{
+    border-radius: 5px;
+    padding-right: 10px;
+    border: 1% solid;
+}
+#image{
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+}
+main {
+    background-color: white;
+    text-align: center;
+}
+.h2{
+    font-size: 50px;
+    text-decoration: dotted;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+
+h2 span{
+    
+    background-color: #fdfdfe;
+    font-family: "Asap", sans-serif;
+    color: transparent;
+    -webkit-background-clip: text;
+     background-clip: text; 
+    background-image: repeating-radial-gradient(closest-side at 20px 20px,#553c9a, #ee4b2b, #553c9a);
+}
+.found_head{
+    background-color: #fcfcfc;
+    margin: 0px;
+    padding: 0px;
+}
+.founder{
+    display: block;
+}
+
+#h3{
+    
+    font-size: 40px;
+    color: transparent;
+    -webkit-background-clip: text;
+     background-clip: text; 
+    background-image: repeating-radial-gradient(closest-side at 20px 20px,#d63781, #af096f, #9a3c92);
+    margin: 0%;
+    border-right: 4px solid #000;
+    animation: cursor 1s infinite, typing 5s infinite;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes cursor{
+    0%, 100%{border-color: transparent;}
+    50%{border-color: #000;}
+  }
+  @keyframes typing{
+    0%{ width: 0px} /*Text is hidden*/
+    50%{ width: 280px;} /*The enitre header will be typed out*/
+    100%{ width: 0px;} /*Text stays visible* rhndo shi to h noi vo hmesha dikhega animation ke baad bhi ya to 1 idea hai*/
+    
+  }
+
+
+p{
+    text-align: center;
+    padding-left: 20px;
+    border: 1.5px dotted black ;
+    color: rgb(187, 102, 130);
+    background-color: rgb(231, 229, 229);
+}
+ p a:hover{
+   
+    color:rgb(131, 190, 36);
+ } 
+ .p{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0px;
+ }  
+section {
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+
+footer {
+    background-color: #444040;
+    overflow: hidden;
+    
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+footer a:hover{
+    color: #faba7d;
+}
+
+
+@media screen and (max-width:380px) {
+    nav{
+        flex-direction: column;
+    }
+    
+}
+
+ 
+  
+  
+  
+
+

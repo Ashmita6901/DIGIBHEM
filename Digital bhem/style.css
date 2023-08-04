@@ -1,0 +1,360 @@
+*{
+    list-style-type: none;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+    
+}
+.nav_bar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    height: 50px;
+    width: 126px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+
+}
+.logo{
+    background-image: url("download.png");
+    background-size: cover;
+    height: 50px;
+    width: 136px;
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/** box 2 address **/
+.deliver{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.country{
+    font-size: 1rem;
+    margin-left: 5px;
+    font-weight: bold;
+
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+/** box-3 search **/
+.nav_search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+
+}
+.select_kro {
+    background-color: #f3f3f3;
+    width:60px;
+    text-align: center;
+    border-top-left-radius:4px ;
+    border-top-left-radius:4px ;
+    border: none;
+    
+}
+.search_input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgba(226, 176, 11, 0.973);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.search-icon .fa-solid{
+    font-size: 15px;
+}
+.nav_search :hover{
+    border: 2px solid orange
+}
+ p span{
+    font-size: 12px;
+    
+}
+.Acc{
+    font-size: 14px;
+    font-weight: bold;
+}
+.fa-solid {
+    font-size: 10px;
+}
+/**cart**/
+.nav_cart{
+    display: flex;
+}
+.cart_icon .fa-solid{
+    font-size: 30px;
+}
+.cart{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content:end;
+    align-items:end
+    
+}
+/** panel styling **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelops a{
+    text-decoration: none;
+    color: white;
+    
+    font-size: 14px;
+    margin-left: 15px;
+    
+}
+.panelops{
+    width:90%;
+    font-size: 0.85rem;
+}
+.panelall{
+    font-weight: bolder;
+    align-items: center;
+}
+.panelall i{
+    font-size: 17px;
+}
+.panelops a:hover{
+    border:1px solid white;
+}
+/** herosection **/
+.herosection{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("slideimg/1.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    animation:slider 15s infinite alternate; /** name duration time direction **/
+
+}
+@keyframes slider{
+    0%{background-image: url("slideimg/1.jpg");  }
+    20%{ background-image: url("slideimg/2.jpg");  }
+    40%{background-image: url("slideimg/3.jpg");  }
+    60%{ background-image: url("slideimg/4.jpg"); }
+    80%{ background-image: url("slideimg/5.jpg"); }
+}
+.herotext{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+    
+}
+.herotext a{
+    color: #007185;
+}
+/** shop items **/
+.shopitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(224, 215, 215, 0.897);
+    
+}
+.box{
+    
+    height:400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+.boxcontent{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.boxcontent a{
+    text-decoration: none;
+    color: #007185;
+    margin-top: 1px;
+}
+.shopitems img{
+    height: 320px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box12 .deals #Deal{
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #cc0c39;
+    color: white;
+    margin: 0px 6px 0px 0px;
+    padding: 4px 6px;
+    font-weight: bold;
+}
+.deals a{
+    font-size: 13px;
+    color:#cc0c39;
+    font-weight: bold;
+}
+#para{
+    color: black;
+    font-size: 13px;
+}
+.box11_img .dealimg{
+    height: 250px;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+.foot-panel1 a{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    text-decoration: none;
+}
+.foot-panel1 a:hover{
+    background-color: #626f7e
+}
+
+
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.foot-panel2 ul a{
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 20px;
+}
+.foot-panel2 ul p{
+    margin-top: 50px;
+}
+.footpanel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.1px solid rgb(153, 151, 151);
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footpanel3 .logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+}
+.footpanel4{
+    background-color: #131A22;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 80px;
+    
+    
+    
+}
+
+.footpanel4 a{
+    text-decoration: none;
+    color: #dddddd;
+    
+}
+.pages{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+.copyright{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+
+}
+@media only screen and (max-width:600px){
+    .nav_bar .nav_add .nav_search{
+        padding: auto;
+        font-size: 12px;
+        padding-top: 15px;
+
+
+
+    }
+    .herosection {
+        height: 500px;
+        width: 95%;
+        font-size: 8px;
+        align-items: center;
+    }
+    .herotext{
+        font-size: 8px;
+    }
+    .shopitems .boxcontent{
+        display: flex;
+        justify-content: space-evenly;
+        padding:auto;
+        width: 100%;
+        height: 20%;
+        margin: auto;
+    }
+    .shopitems .boxcontent a{
+        padding-bottom: 20px;
+    }
+    
+    
+
+
+    
+
+}
+
+
+
